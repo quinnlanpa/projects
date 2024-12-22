@@ -1,8 +1,5 @@
 473_unet_project.ipynb is a UNET image segmentation deep neural network that has been modified to include spatial regularization using 
-soft threshold dynamics(STD). This work follows the paper "Deep Convolutional Neural Networks wish Spatial Regularization, Volume and Star-Shaped Priors for Image Segmentation"
-by Liu, Wang and Tai. That work implements the STD on softmax in a DeepLabV3+ architecture.  In this work we implemented the STD regularization on a UNET instead. For data we 
-used the Carvana binary image segmentation dataset found on Kaggle.com. This data set was uploaded to Google drive then the drive was mounted so we could get that large amount 
-of data into Google Colab. Colab was used because it was what was used for that class. Doing binary segmentation, the UNET used sigmoid rather than softmax as in DeepLabV3+ so
-we implemented a STD-sigoid activation function.
-This code was written for MATH 473 Introduction to Mathematical Image Processing and Computer Vison as part of a group project. I implemented the UNET architecture following 
-the work of Alddin Persson, made accommodations for the code to work in Colab and made the necessary modifications to utilize the new activation function.
+soft threshold dynamics(STD).
+This work follows the paper "Deep Convolutional Neural Networks wish Spatial Regularization, Volume and Star-Shaped Priors for Image Segmentation" by Liu, Wang and Tai. That work implements the STD on softmax in a DeepLabV3+ architecture.
+In this work we implemented the STD regularization on a UNET instead. For data we  used the Carvana binary image segmentation dataset found on Kaggle.com. This data set was uploaded to Google drive then the drive was mounted so we could get that large amount of data into Google Colab. Colab was used because it was what was used for that class. Doing binary segmentation, the UNET used sigmoid rather than softmax as in DeepLabV3+ so we implemented a STD-sigoid activation function.
+This code was written for MATH 473 Introduction to Mathematical Image Processing and Computer Vison as part of a group project. I implemented the UNET architecture following the work of Alddin Persson, made accommodations for the code to work in Colab and made the necessary modifications to utilize the new activation function.
