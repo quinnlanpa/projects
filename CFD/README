@@ -1,3 +1,3 @@
-poissonpressure.m is a MATLAB file that solves the stokes equations using a pressure poisson formulation, essentatilly breaking the equation in to 13 poisson solves. 
-The method is outlined in the .pdf included.
-The method utilises finite difference approximations using periodic BCs and uniform grid spacing. 
+poissonpressure.m is a MATLAB file that solves the stokes equations using a pressure poisson formulation. 
+The method is outlined in the .pdf included. This code was written for MATH 447 Computational Fluid Dynamics in spring 2024
+The method utilises finite difference approximations using periodic BCs and uniform grid spacing.
