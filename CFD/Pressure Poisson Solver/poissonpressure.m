@@ -1,11 +1,10 @@
 % Quinn Aiken
-% MATH 447 Computational Fluids
 % Solves the pressure poisson formuation of the Stokes Equations on domain
 % [a,b] x [a,b]. The formulation is two equations laplace(p)=div(f), 
 % and laplace([u,v])=grad(p)+f using finite differences, periodic
 % boundary conditions and uniform grid spacing. The code takes a long time
 % improvments could be made by lowering m and by solving the linear systems
-% in a more effecient manor, by not using \. 
+% in a more effecient maner, by not using \. 
 
 
 
